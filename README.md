@@ -63,13 +63,13 @@ Log data, item 24
 
 # Write the expoilt
 
-Use python
+- Use python
 
-2nd line - 62 junk bytes
-3rd line - esp jump address input it backwards
-4th line - exec calc.exe in hex
+- 2nd line - 62 junk bytes
+- 3rd line - esp jump address input it backwards
+- 4th line - exec calc.exe in hex
 
-5/6 opens payload and excutes
+- 5/6 opens payload and excutes
 
 
 ```
