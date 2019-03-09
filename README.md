@@ -33,8 +33,12 @@ gcc -m32 overflow.c -o overflow.exe
 
 # Load Debugger
 
-load immunity and use the folder or file to open and then locate overflow.exe
-at the bottom of the screen set a working directory
+Locate immunity folder and drop mona in the extensions folder
+
+set gcc as a system path c:\mingw\bin\
+
+Load Immunity and use the folder or file to open and then locate overflow.exe
+at the bottom of the screen set a working directory.
 ```
 !mona config -set workingfolder c:\mona\%p
 ```
