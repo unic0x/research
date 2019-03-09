@@ -69,7 +69,7 @@ Log data, item 24
 - 3rd line - esp jump address input it backwards
 - 4th line - exec calc.exe in hex
 
-- 5/6 opens payload and excutes
+- 5/6 opens payload
 
 
 ```
