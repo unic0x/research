@@ -33,8 +33,16 @@ gcc -m32 overflow.c -o overflow.exe
 
 # Debugger
 
-load immunity
+load immunity and use the folder or file to open and then locate overflow.exe
+at the bottom of the screen set a working directory
+```
+!mona config -set workingfolder c:\mona\%p
+```
 
+!mona pc 100
 
+!mona po 31634130
+
+!mona jmp -r esp -m kernel
 
 
