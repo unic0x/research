@@ -7,7 +7,7 @@ required software
 - MinGW (gcc) - https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Automated%20Builds/
 
 
-# First step
+# First steps
 
 Write code
 
@@ -25,7 +25,15 @@ return 0;
 }
 ```
 
+Compile
 
+```
+gcc -m32 overflow.c -o overflow.exe
+```
+
+# Debugger
+
+load immunity
 
 
 
