@@ -49,7 +49,7 @@ use this as a pattern offset to workout how many junk bites are required in our 
 !mona po 31634130
 ```
 
-look for a esp jump command
+look for a esp jump command to workout where your payload would be
 
 ```
 !mona jmp -r esp -m kernel
